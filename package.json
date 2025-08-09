@@ -1,6 +1,17 @@
 {
+  "name": "zaluea",
+  "version": "1.0.0",
+  "description": "Ultraviolet proxy server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "bare-server-node": "github:tomphttp/bare-server-node",
     "node-static": "^0.7.11"
-  }
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "license": "MIT"
 }
